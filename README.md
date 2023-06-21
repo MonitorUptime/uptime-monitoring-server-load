@@ -103,7 +103,7 @@ git clone https://github.com/YourUsername/uptime-monitoring-server-load.git
 ``` 
 Replace `YourUsername` with your GitHub username.
 
-# Making Changes
+### Making Changes
 
 - Create a new branch: Before making any changes, create a new branch to work on. Use a descriptive branch name that reflects the nature of your changes. You can create a new branch using the following command: 
 ```bash
@@ -120,7 +120,7 @@ git checkout -b your-branch-name
 git commit -m "Add feature XYZ"
 ```
 
-# Submitting a Pull Request
+### Submitting a Pull Request
 - Push your changes: Push your local branch to your forked repository on GitHub:
 ```bash 
 git push origin your-branch-name
@@ -131,7 +131,7 @@ git push origin your-branch-name
 
 - Merging the changes: If your pull request is approved and meets the project's guidelines, it will be merged into the main repository. Congratulations, you've successfully contributed to the project!
 
-# Code of Conduct
+### Code of Conduct
 When contributing to this project, please adhere to the project's Code of Conduct. Be respectful and considerate of others, and promote a positive and inclusive environment for collaboration.
 
 We appreciate all contributions, whether it's fixing a bug, adding a new feature, improving documentation, or suggesting enhancements. Thank you for your support and for helping make this project even better!
