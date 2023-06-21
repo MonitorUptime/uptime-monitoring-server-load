@@ -5,15 +5,11 @@
 ![Unix](https://img.shields.io/badge/platform-Unix-green)
 
 ## Description
+This script allows you to export server load information in JSON format, which is required by various monitoring systems, such as [MonitorUptime.io](https://monitoruptime.io/), for retrieving external server load data. It retrieves server load data and converts it into a JSON string, enabling easy processing and analysis.
 
-This script allows you to export the servers load information in JSON format which is needed by https://monitoruptime.io/ 
-if you have chosen to monitor this. It retrieves server load data and converts it into a JSON string for easy processing and analysis. 
-The motivation behind this project was to provide a simple and convenient way to monitor server load and integrate it 
-with other systems or tools. 
+The motivation behind this project was to provide a simple and convenient way to monitor server load and seamlessly integrate it with other systems or tools.
 
-By exporting the data in JSON format, it becomes easier to process and utilize the server load information. 
-This project solves the problem of efficiently extracting server load data and provides a standardized format for its consumption. 
-Throughout the development process, you will learn how to retrieve system load information and convert it into JSON format using PHP.
+By exporting the data in JSON format, it becomes easier to process and utilize server load information. This project efficiently extracts server load data and provides a standardized format for consumption. Throughout the development process, you will learn how to retrieve system load information and convert it into JSON format using PHP.
 
 ## Table of Contents
 
