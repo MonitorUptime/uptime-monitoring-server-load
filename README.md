@@ -1,4 +1,8 @@
 # Export Server Load in JSON format
+![PHP](https://img.shields.io/badge/language-PHP-blue)
+![MySQL](https://img.shields.io/badge/database-MySQL-blue)
+![MariaDB](https://img.shields.io/badge/database-MariaDB-blue)
+![Unix](https://img.shields.io/badge/platform-Unix-green)
 
 ## Description
 
@@ -84,22 +88,54 @@ This project was created and maintained by Your Name.
 ## License
 This project is licensed under the MIT License.
 
-🏆 The previous sections are the essential components of a README file. You can consider adding the following sections based on your project requirements.
-
-## Badges
-badmath
-
-Add relevant badges to showcase your project, such as the programming language used, build status, or any other indicators of project quality or popularity. You can create badges using services like shields.io.
-
 ## Features
-List the key features of your project here. For example:
 
-Retrieves server load information.
-Exports server load data in JSON format.
-Easy integration with other systems or tools.
+- Validate call using API-Key
+- Retrieves server load information.
+- Exports server load data in JSON format.
+- Easy integration with other systems or tools.
 
 ## How to Contribute
-If you would like other developers to contribute to your project, provide guidelines on how they can do so. You can use the Contributor Covenant or create your own guidelines.
+We appreciate and welcome contributions from the developer community to enhance this project. If you would like to contribute, please follow the guidelines below:
 
-## Tests
-Explain how to run tests for your project and provide examples if applicable.
+Cloning the Repository
+Fork the repository: Click on the "Fork" button at the top right corner of this repository page. This will create a copy of the repository in your GitHub account.
+
+Clone the repository: On your local machine, navigate to the directory where you want to clone the repository. Use the following command to clone the repository:
+```bash
+git clone https://github.com/YourUsername/uptime-monitoring-server-load.git
+``` 
+Replace `YourUsername` with your GitHub username.
+
+# Making Changes
+
+- Create a new branch: Before making any changes, create a new branch to work on. Use a descriptive branch name that reflects the nature of your changes. You can create a new branch using the following command: 
+```bash
+git checkout -b your-branch-name
+```
+
+- Make your modifications: Make the necessary changes or additions to the codebase. Ensure that your changes align with the project's objectives and coding standards.
+
+- Test your changes: Before submitting your contribution, test your changes locally to ensure they work as expected and do not introduce any regressions.
+
+- Commit your changes: Once you are satisfied with your modifications, commit your changes with a descriptive commit message that explains the purpose of your changes:
+
+```bash
+git commit -m "Add feature XYZ"
+```
+
+# Submitting a Pull Request
+- Push your changes: Push your local branch to your forked repository on GitHub:
+```bash 
+git push origin your-branch-name
+```
+- Open a Pull Request: Go to the original repository's page on GitHub and click on the "Pull Request" button. Fill in the necessary details for your pull request, including a clear description of the changes you have made.
+
+- Discuss and iterate: Once the pull request is opened, it will be reviewed by the project maintainers. They may provide feedback or request additional changes. Be responsive to the feedback and make any necessary adjustments.
+
+- Merging the changes: If your pull request is approved and meets the project's guidelines, it will be merged into the main repository. Congratulations, you've successfully contributed to the project!
+
+# Code of Conduct
+When contributing to this project, please adhere to the project's Code of Conduct. Be respectful and considerate of others, and promote a positive and inclusive environment for collaboration.
+
+We appreciate all contributions, whether it's fixing a bug, adding a new feature, improving documentation, or suggesting enhancements. Thank you for your support and for helping make this project even better!
